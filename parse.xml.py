@@ -21,5 +21,5 @@ covid_cases = open("covid_cases_parse", "w")
 writer = csv.writer(covid_cases)
 writer.writerow(["Date_reported","Countries_territories", "Cases_number", "Death_number"])
 for i in range (len(Date_reported)):
-    writer.wroterow([Date_reported[i], Countries_territories[i], Cases_number [i], Death_number [i]])
+    writer.writerow([Date_reported[i], Countries_territories[i], Cases_number[i], Death_number[i]])
     
